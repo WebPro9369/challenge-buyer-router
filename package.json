@@ -14,11 +14,18 @@
     "lodash": "^4.17.4",
     "map-async": "^0.1.1",
     "memdown": "^1.2.4",
+    "redis": "^2.7.1",
     "servertest": "^1.2.1",
     "standard": "^8.6.0",
     "tape": "^4.6.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel": "^6.5.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "morgan": "^1.7.0"
+  },
   "directories": {
     "test": "test"
   },

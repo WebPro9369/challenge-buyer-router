@@ -20,7 +20,6 @@ tape('should add buyers', function (t) {
       t.equal(res.statusCode, 201, 'correct statusCode')
       cb(err)
     })
-
     stream.end(JSON.stringify(buyer))
   }
 })
