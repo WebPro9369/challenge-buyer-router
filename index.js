@@ -10,5 +10,5 @@ server.listen(port, (err) => {
     if (err) {
         return console.log('something bad happened', err)
     }
-    console.log('Express server listening on %d', port);
+    console.log('Express server listening on port %d', port);
 });
